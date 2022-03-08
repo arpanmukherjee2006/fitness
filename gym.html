@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <title>Arpan fitness</title>
+</head>
+<style>
+ 
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(https://source.unsplash.com/1550x900/?gym) no-repeat;
+    }
+
+    .left {
+        display: inline-block;
+        left: 16px;
+        top: 7px;
+        position: absolute;
+    }
+
+    .left img {
+        width: 100px;
+    }
+
+    .left div {
+        text-align: center;
+        background-color: black;
+        font-family: 'Lobster', cursive;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 12px auto;
+        background-color: black;
+    }
+
+    .right {
+        position: absolute;
+        right: 10px;
+        top: 12px;
+        display: inline-block;
+
+
+    }
+
+    .navbar {
+        display: inline-block;
+        background-color: black;
+    }
+
+    .navbar li {
+        display: inline-block;
+        color: white;
+        font-size: 16px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 35px 19px;
+        font-family: 'Quintessential', cursive;
+
+
+
+    }
+
+    .navbar li :hover,
+    .navbar li a.hover {
+        color: rgb(95, 92, 92);
+        text-decoration: underline;
+
+
+    }
+
+    .navbar li a.hover {
+        color: rgb(95, 92, 92);
+        text-decoration: underline;
+
+
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 5px 12px;
+        /* border: 2px solid black; */
+        border-radius: 13px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Quintessential', cursive;
+    }
+
+    .container {
+      
+        margin: 122px 51px;
+        padding: 55px;
+        width: 33%;
+       
+
+    }
+
+    #join {
+        background-color: black;
+        text-align: center;
+        font-family: 'Lobster Two', cursive;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 311px;
+        padding: 3px;
+        margin: 13px auto;
+        font-size: 14px;
+        border: 3px solid white;
+        border-radius: 13px;
+    }
+
+    .container button {
+        display: block;
+        width: 67%;
+        margin: auto;
+        border-radius: 17px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="gym - Copy.jpg" alt="">
+            <div>Arpan Fitness</div>
+        </div>
+        <!-- mid box for navbar  -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Fitness calculator</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Email us</button>
+            <button class="btn">Call us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h3 id="join">Join the best gym of bokaro now</h3>
+        <form action="noaction.php"></form>
+        <div class="form-group">
+            <input type="text" placeholder="Enter Your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Enter Your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Enter Your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Enter Your Locality">
+
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+</body>
+
+</html>
